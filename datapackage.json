@@ -6,14 +6,14 @@
   "licenses": null, 
   "resources": [
     {
-      "path": "/Users/olga/flotilla_projects/shalek2013/splicing.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv.gz", 
       "format": "csv", 
       "name": "splicing", 
       "compression": "gzip"
     }, 
     {
       "number_mapped_col": "PF_READS", 
-      "path": "/Users/olga/flotilla_projects/shalek2013/mapping_stats.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats.csv.gz", 
       "format": "csv", 
       "name": "mapping_stats", 
       "compression": "gzip"
@@ -23,7 +23,7 @@
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "path": "/Users/olga/flotilla_projects/shalek2013/expression_feature.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression_feature.csv.gz", 
       "compression": "gzip"
     }, 
     {
@@ -31,7 +31,7 @@
       "log_base": null, 
       "format": "csv", 
       "thresh": -Infinity, 
-      "path": "/Users/olga/flotilla_projects/shalek2013/expression.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression.csv.gz", 
       "compression": "gzip"
     }, 
     {
@@ -39,7 +39,7 @@
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "path": "/Users/olga/flotilla_projects/shalek2013/splicing_feature.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv.gz", 
       "compression": "gzip"
     }, 
     {
@@ -53,7 +53,7 @@
       "phenotype_to_color": {
         "BDMC": "#1b9e77"
       }, 
-      "path": "/Users/olga/flotilla_projects/shalek2013/metadata.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/metadata.csv.gz", 
       "phenotype_col": "phenotype", 
       "phenotype_order": [
         "BDMC"
