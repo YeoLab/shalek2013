@@ -6,10 +6,14 @@
   "licenses": null, 
   "resources": [
     {
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv.gz", 
+      "header": [
+        0, 
+        1
+      ], 
       "format": "csv", 
+      "compression": "gzip", 
       "name": "splicing", 
-      "compression": "gzip"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv.gz"
     }, 
     {
       "number_mapped_col": "PF_READS", 
