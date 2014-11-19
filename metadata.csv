@@ -1,22 +1,22 @@
 ,phenotype,pooled,outlier
-S1,BDMC,False,False
-S2,BDMC,False,False
-S3,BDMC,False,False
-S4,BDMC,False,False
-S5,BDMC,False,False
-S6,BDMC,False,False
-S7,BDMC,False,False
-S8,BDMC,False,False
-S9,BDMC,False,False
-S10,BDMC,False,False
-S11,BDMC,False,False
-S12,BDMC,False,False
-S13,BDMC,False,False
-S14,BDMC,False,False
-S15,BDMC,False,False
-S16,BDMC,False,False
-S17,BDMC,False,False
-S18,BDMC,False,False
-P1,BDMC,True,False
-P2,BDMC,True,False
-P3,BDMC,True,False
+S1,Mature BDMC,False,False
+S2,Mature BDMC,False,False
+S3,Mature BDMC,False,False
+S4,Mature BDMC,False,False
+S5,Mature BDMC,False,False
+S6,Mature BDMC,False,False
+S7,Mature BDMC,False,False
+S8,Mature BDMC,False,False
+S9,Mature BDMC,False,False
+S10,Mature BDMC,False,False
+S11,Mature BDMC,False,False
+S12,Immature BDMC,False,False
+S13,Immature BDMC,False,False
+S14,Mature BDMC,False,False
+S15,Mature BDMC,False,False
+S16,Immature BDMC,False,False
+S17,Mature BDMC,False,False
+S18,Mature BDMC,False,False
+P1,Mature BDMC,True,False
+P2,Mature BDMC,True,False
+P3,Mature BDMC,True,False
