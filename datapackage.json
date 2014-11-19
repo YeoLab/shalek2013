@@ -11,40 +11,35 @@
         1
       ], 
       "format": "csv", 
-      "compression": "gzip", 
       "name": "splicing", 
-      "path": "splicing.csv.gz"
+      "path": "splicing.csv"
     }, 
     {
       "number_mapped_col": "PF_READS", 
       "path": "mapping_stats.csv.gz", 
       "format": "csv", 
-      "name": "mapping_stats", 
-      "compression": "gzip"
+      "name": "mapping_stats"
     }, 
     {
       "name": "expression_feature", 
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "path": "expression_feature.csv.gz", 
-      "compression": "gzip"
+      "path": "expression_feature.csv"
     }, 
     {
       "name": "expression", 
       "log_base": null, 
       "format": "csv", 
       "thresh": -Infinity, 
-      "path": "expression.csv.gz", 
-      "compression": "gzip"
+      "path": "expression.csv"
     }, 
     {
       "name": "splicing_feature", 
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "path": "splicing_feature.csv.gz", 
-      "compression": "gzip"
+      "path": "splicing_feature.csv"
     }, 
     {
       "pooled_col": "pooled", 
@@ -61,14 +56,13 @@
         "Immature BDMC": "#d76003", 
         "BDMC": "#1b9e77"
       }, 
-      "path": "metadata.csv.gz", 
+      "path": "metadata.csv", 
       "phenotype_col": "phenotype", 
       "phenotype_order": [
         "BDMC", 
         "Mature BDMC", 
         "Immature BDMC"
-      ], 
-      "compression": "gzip"
+      ]
     }
   ]
 }
