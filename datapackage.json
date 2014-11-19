@@ -12,11 +12,11 @@
       ], 
       "format": "csv", 
       "name": "splicing", 
-      "path": "splicing.csv"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv"
     }, 
     {
       "number_mapped_col": "PF_READS", 
-      "path": "mapping_stats.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats.csv.gz", 
       "format": "csv", 
       "name": "mapping_stats"
     }, 
@@ -25,21 +25,21 @@
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "path": "expression_feature.csv"
+      "url": "expression_feature.csv"
     }, 
     {
       "name": "expression", 
       "log_base": null, 
       "format": "csv", 
       "thresh": -Infinity, 
-      "path": "expression.csv"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression.csv"
     }, 
     {
       "name": "splicing_feature", 
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "path": "splicing_feature.csv"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv"
     }, 
     {
       "pooled_col": "pooled", 
@@ -56,7 +56,7 @@
         "Immature BDMC": "#d76003", 
         "BDMC": "#1b9e77"
       }, 
-      "path": "metadata.csv", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/metadata.csv", 
       "phenotype_col": "phenotype", 
       "phenotype_order": [
         "BDMC", 
