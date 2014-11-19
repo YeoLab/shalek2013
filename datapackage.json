@@ -25,7 +25,7 @@
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "url": "expression_feature.csv"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression_feature.csv"
     }, 
     {
       "name": "expression", 
