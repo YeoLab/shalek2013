@@ -46,19 +46,13 @@
     {
       "pooled_col": "pooled", 
       "name": "metadata", 
-      "phenotype_to_marker": {
-        "BDMC": "o"
-      }, 
+      "phenotype_to_marker": null, 
       "format": "csv", 
       "minimum_samples": 0, 
-      "phenotype_to_color": {
-        "BDMC": "#1b9e77"
-      }, 
+      "phenotype_to_color": null, 
       "url": "https://github.com/YeoLab/shalek2013/blob/master/metadata.csv", 
       "phenotype_col": "maturity", 
-      "phenotype_order": [
-        "BDMC"
-      ]
+      "phenotype_order": null
     }
   ]
 }
