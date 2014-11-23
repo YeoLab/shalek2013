@@ -11,24 +11,21 @@
         1
       ], 
       "format": "csv", 
-      "compression": "gzip", 
       "name": "splicing", 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv.gz"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv"
     }, 
     {
       "number_mapped_col": "PF_READS", 
-      "url": "mapping_stats.csv.gz", 
+      "url": "mapping_stats.csv", 
       "format": "csv", 
-      "name": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats", 
-      "compression": "gzip"
+      "name": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats" 
     }, 
     {
       "name": "expression_feature", 
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression_feature.csv.gz", 
-      "compression": "gzip"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression_feature.csv"
     }, 
     {
       "name": "expression", 
@@ -36,17 +33,15 @@
       "format": "csv", 
       "thresh": -Infinity, 
       "plus_one": false, 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression.csv.gz", 
-      "compression": "gzip"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression.csv"
     }, 
     {
       "name": "splicing_feature", 
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv.gz", 
-      "expression_id_col": "gene_name", 
-      "compression": "gzip"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv", 
+      "expression_id_col": "gene_name"
     }, 
     {
       "pooled_col": "pooled", 
@@ -63,8 +58,7 @@
       "phenotype_col": "phenotype", 
       "phenotype_order": [
         "BDMC"
-      ], 
-      "compression": "gzip"
+      ]
     }
   ]
 }
