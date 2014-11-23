@@ -12,7 +12,7 @@
       ], 
       "format": "csv", 
       "name": "splicing", 
-      "url": "splicing.csv"
+      "url": "https://github.com/YeoLab/shalek2013/blob/master/splicing.csv"
     }, 
     {
       "number_mapped_col": "PF_READS", 
