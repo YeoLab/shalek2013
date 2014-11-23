@@ -12,11 +12,11 @@
       ], 
       "format": "csv", 
       "name": "splicing", 
-      "url": "https://github.com/YeoLab/shalek2013/blob/master/splicing.csv"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv"
     }, 
     {
       "number_mapped_col": "PF_READS", 
-      "url": "https://github.com/YeoLab/shalek2013/blob/master/mapping_stats.csv", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats.csv", 
       "format": "csv", 
       "name": "mapping_stats"
     }, 
@@ -25,7 +25,7 @@
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "url": "https://github.com/YeoLab/shalek2013/blob/master/expression_feature.csv"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression_feature.csv"
     }, 
     {
       "name": "expression", 
@@ -33,14 +33,14 @@
       "format": "csv", 
       "thresh": -Infinity, 
       "plus_one": false, 
-      "url": "https://github.com/YeoLab/shalek2013/blob/master/expression.csv"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression.csv"
     }, 
     {
       "name": "splicing_feature", 
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "url": "https://github.com/YeoLab/shalek2013/blob/master/splicing_feature.csv", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv", 
       "expression_id_col": "gene_name"
     }, 
     {
@@ -50,7 +50,7 @@
       "format": "csv", 
       "minimum_samples": 0, 
       "phenotype_to_color": null, 
-      "url": "https://github.com/YeoLab/shalek2013/blob/master/metadata.csv", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/metadata.csv", 
       "phenotype_col": "maturity", 
       "phenotype_order": ["immature", "mature"]
     }
