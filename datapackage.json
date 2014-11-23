@@ -1,7 +1,7 @@
 {
-  "name": "shalek2013_v2", 
+  "name": "shalek2013", 
   "title": null, 
-  "datapackage_version": "0.1.3", 
+  "datapackage_version": "0.1.1", 
   "sources": null, 
   "licenses": null, 
   "resources": [
@@ -11,59 +11,60 @@
         1
       ], 
       "format": "csv", 
+      "compression": "gzip", 
       "name": "splicing", 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv"
+      "path": "splicing.csv.gz"
     }, 
     {
       "number_mapped_col": "PF_READS", 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats.csv", 
+      "path": "mapping_stats.csv.gz", 
       "format": "csv", 
-      "name": "mapping_stats"
+      "name": "mapping_stats", 
+      "compression": "gzip"
     }, 
     {
       "name": "expression_feature", 
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression_feature.csv"
+      "path": "expression_feature.csv.gz", 
+      "compression": "gzip"
     }, 
     {
       "name": "expression", 
       "log_base": null, 
       "format": "csv", 
       "thresh": -Infinity, 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression.csv"
+      "plus_one": false, 
+      "path": "expression.csv.gz", 
+      "compression": "gzip"
     }, 
     {
       "name": "splicing_feature", 
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv",
-      "expression_id_col" : "gene_name"
+      "path": "splicing_feature.csv.gz", 
+      "expression_id_col": "gene_name", 
+      "compression": "gzip"
     }, 
     {
       "pooled_col": "pooled", 
       "name": "metadata", 
       "phenotype_to_marker": {
-        "Mature BDMC": "o", 
-        "Immature BDMC": "o", 
         "BDMC": "o"
       }, 
       "format": "csv", 
       "minimum_samples": 0, 
       "phenotype_to_color": {
-        "Mature BDMC": "#1b9e77", 
-        "Immature BDMC": "#d76003", 
         "BDMC": "#1b9e77"
       }, 
-      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/metadata.csv", 
+      "path": "metadata.csv.gz", 
       "phenotype_col": "phenotype", 
       "phenotype_order": [
-        "BDMC", 
-        "Mature BDMC", 
-        "Immature BDMC"
-      ]
+        "BDMC"
+      ], 
+      "compression": "gzip"
     }
   ]
 }
