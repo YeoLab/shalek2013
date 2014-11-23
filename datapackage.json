@@ -13,13 +13,13 @@
       "format": "csv", 
       "compression": "gzip", 
       "name": "splicing", 
-      "path": "splicing.csv.gz"
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv.gz"
     }, 
     {
       "number_mapped_col": "PF_READS", 
-      "path": "mapping_stats.csv.gz", 
+      "url": "mapping_stats.csv.gz", 
       "format": "csv", 
-      "name": "mapping_stats", 
+      "name": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats", 
       "compression": "gzip"
     }, 
     {
@@ -27,7 +27,7 @@
       "format": "csv", 
       "rename_col": null, 
       "ignore_subset_cols": [], 
-      "path": "expression_feature.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression_feature.csv.gz", 
       "compression": "gzip"
     }, 
     {
@@ -36,7 +36,7 @@
       "format": "csv", 
       "thresh": -Infinity, 
       "plus_one": false, 
-      "path": "expression.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/expression.csv.gz", 
       "compression": "gzip"
     }, 
     {
@@ -44,7 +44,7 @@
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "path": "splicing_feature.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv.gz", 
       "expression_id_col": "gene_name", 
       "compression": "gzip"
     }, 
@@ -59,7 +59,7 @@
       "phenotype_to_color": {
         "BDMC": "#1b9e77"
       }, 
-      "path": "metadata.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/metadata.csv", 
       "phenotype_col": "phenotype", 
       "phenotype_order": [
         "BDMC"
