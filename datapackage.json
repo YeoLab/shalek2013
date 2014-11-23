@@ -12,7 +12,7 @@
       ], 
       "format": "csv", 
       "name": "splicing", 
-      "url": "https://github.com/YeoLab/shalek2013/blob/master/splicing.csv"
+      "url": "https://github.com/Y  eoLab/shalek2013/blob/master/splicing.csv"
     }, 
     {
       "number_mapped_col": "PF_READS", 
@@ -46,13 +46,13 @@
     {
       "pooled_col": "pooled", 
       "name": "metadata", 
-      "phenotype_to_marker": null, 
+      "phenotype_to_marker": {"immature": "o", "mature":"o"}, 
       "format": "csv", 
       "minimum_samples": 0, 
       "phenotype_to_color": null, 
       "url": "https://github.com/YeoLab/shalek2013/blob/master/metadata.csv", 
       "phenotype_col": "maturity", 
-      "phenotype_order": null
+      "phenotype_order": ["immature", "mature"]
     }
   ]
 }
