@@ -16,9 +16,9 @@
     }, 
     {
       "number_mapped_col": "PF_READS", 
-      "url": "mapping_stats.csv", 
+      "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats.csv", 
       "format": "csv", 
-      "name": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/mapping_stats" 
+      "name": "mapping_stats" 
     }, 
     {
       "name": "expression_feature", 
