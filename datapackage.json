@@ -41,7 +41,8 @@
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
       "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv", 
-      "expression_id_col": "gene_name"
+      "expression_id_col": "gene_name",
+      "index_col": [0, 1]
     }, 
     {
       "pooled_col": "pooled", 
