@@ -1,22 +1,22 @@
 ,phenotype,pooled,outlier,maturity
-S1,Immature BDMC,False,False,immature
-S2,Immature BDMC,False,False,immature
-S3,Immature BDMC,False,False,immature
-S4,Immature BDMC,False,False,immature
-S5,Immature BDMC,False,False,immature
-S6,Immature BDMC,False,False,immature
-S7,Immature BDMC,False,False,immature
-S8,Immature BDMC,False,False,immature
-S9,Immature BDMC,False,False,immature
-S10,Immature BDMC,False,False,immature
-S11,Immature BDMC,False,False,immature
-S12,Mature BDMC,False,False,mature
-S13,Immature BDMC,False,False,mature
-S14,Immature BDMC,False,False,immature
-S15,Immature BDMC,False,False,immature
-S16,Mature BDMC,False,False,mature
-S17,Immature BDMC,False,False,immature
-S18,Immature BDMC,False,False,immature
-P1,Immature BDMC,True,False,immature
-P2,Immature BDMC,True,False,immature
-P3,Immature BDMC,True,False,immature
+S1,BDMC,False,False,immature
+S2,BDMC,False,False,immature
+S3,BDMC,False,False,immature
+S4,BDMC,False,False,immature
+S5,BDMC,False,False,immature
+S6,BDMC,False,False,immature
+S7,BDMC,False,False,immature
+S8,BDMC,False,False,immature
+S9,BDMC,False,False,immature
+S10,BDMC,False,False,immature
+S11,BDMC,False,False,immature
+S12,BDMC,False,False,mature
+S13,BDMC,False,False,mature
+S14,BDMC,False,False,immature
+S15,BDMC,False,False,immature
+S16,BDMC,False,False,mature
+S17,BDMC,False,False,immature
+S18,BDMC,False,False,immature
+P1,BDMC,True,False,immature
+P2,BDMC,True,False,immature
+P3,BDMC,True,False,immature

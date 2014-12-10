@@ -6,10 +6,6 @@
   "licenses": null, 
   "resources": [
     {
-      "header": [
-        0, 
-        1
-      ], 
       "format": "csv", 
       "name": "splicing", 
       "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing.csv"
@@ -41,8 +37,7 @@
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
       "url": "https://raw.githubusercontent.com/YeoLab/shalek2013/master/splicing_feature.csv", 
-      "expression_id_col": "gene_name",
-      "index_col": [0, 1]
+      "expression_id_col": "gene_name"
     }, 
     {
       "pooled_col": "pooled", 
